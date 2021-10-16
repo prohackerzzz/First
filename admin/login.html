@@ -1,0 +1,47 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="div" class="form">
+        <form class="modal-content" action="http://localhost:8012/wes/admin/login.php" method="post">
+            <div class="imgcontainer">
+                <span id="xwala" class="close" title="closemodal">&times;</span>
+                <img src="loginicon.jpg">
+            </div>
+            <div class="container">
+                <label for ="uname"><b>Username</b></label>
+                <input type="text" name="uname" placeholder="Enter name" required>
+
+                <label for ="psw"><b>Password</b></label>
+                <input type="password" name="psw" placeholder="Enter password" required>
+
+                <button type="submit">Login</button>
+                <label><input type="checkbox" checked="checked" name="remeber"></input>Remember</label>
+            </div>
+
+            <div class="container">
+                <button class="but" name="cancel">Cancel</button>
+                <span class="psw"><a href="#">password?</a></span>
+
+            </div>
+
+        </form>
+        </div>
+        
+        <script src="myworld.js"></script>
+    </body>
+</html>
